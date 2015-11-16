@@ -12,6 +12,12 @@ package org.red5.samples.publisher.view.user
 		*/		
 		private var model : ModelLocator = ModelLocator.getInstance();
 		
+		[Bindable]
+	 	/**
+	 	* 
+	 	*/		
+	 	public var main : Main = model.main;
+		
 		public function UserDisplayClass()
 		{
 		}

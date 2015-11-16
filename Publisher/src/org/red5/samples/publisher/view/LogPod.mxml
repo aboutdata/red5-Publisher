@@ -6,8 +6,13 @@
 	<log:LogAppBar width="100%" paddingTop="5" paddingBottom="0"
 				   dock="true" shadowDistance="0.5"/>
 	
-	<log:LogDisplay width="100%" height="100%"/>
+	<log:LogDisplay width="100%" height="100%" 
+						 	selectedIndex="{ navigation.monitorDisplayViewing }"
+						 	main="{ main }" backgroundColor="0xFFFFFF" 
+							borderStyle="solid" borderColor="0xD0D0D0"
+						 	backgroundImage="{ main.images.serverLogo }"
+						 	paddingBottom="0" cornerRadius="2"/>
 	
-	<log:LogControlBar width="100%" height="55" dock="true"
+	<log:LogControlBar width="100%" height="100%"
 					   paddingTop="-2" paddingBottom="0" shadowDistance="1"/>
 </view:LogPodClass>

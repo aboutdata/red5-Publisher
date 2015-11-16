@@ -46,6 +46,12 @@ package org.red5.samples.publisher.view
 		* 
 		*/		
 		public var main : Main;
+		
+		[Bindable]
+		/**
+		* 
+		*/		
+		public var navigation : Navigation;
 
 	}
 }

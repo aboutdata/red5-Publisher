@@ -15,5 +15,11 @@
 					  width="100%" height="100%"
 				 	  verticalGap="0" direction="vertical"
 					  main="{ main }"/>
+					  
+					  
+		 <view:UserList id="userList" 
+						width="200" height="100%"
+					 	verticalGap="0" direction="vertical"
+						main="{ main }"/>
 	 </mx:Box>
 </view:PublisherClass>

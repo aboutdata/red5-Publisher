@@ -76,7 +76,7 @@ package org.red5.samples.publisher.model
 		* 
 		*/		
 		public var monitorMenu : Array = 	[	
-												{ label: "View", toolTip: "View Stream", data: MONITOR_VIEW }, 
+//												{ label: "View", toolTip: "View Stream", data: MONITOR_VIEW }, 
 									  			{ label: "Publish", toolTip: "Publish Stream", data: MONITOR_PUBLISH }
 									 		];
 	}

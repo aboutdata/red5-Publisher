@@ -66,14 +66,15 @@ package org.red5.samples.publisher.command
 			if ( tabIndex == navigation.SETTINGS_VIDEO || tabIndex == navigation.SETTINGS_AUDIO ) 
 			{
 				//
-				navigation.monitorDisplayViewing = navigation.MONITOR_PUBLISH;
-				navigation.monitorBarIndex = 1;
+				navigation.monitorDisplayViewing = navigation.MONITOR_VIEW;
+				//navigation.monitorBarIndex = 1;
 			} 
 			else 
 			{
-				//
+				//删除服务器端视频流
 				navigation.monitorDisplayViewing = navigation.MONITOR_VIEW;
-				navigation.monitorBarIndex = 0;
+//				/navigation.monitorDisplayViewing = navigation.MONITOR_VIEW;
+				//navigation.monitorBarIndex = 0;
 			}
 		}
 	}

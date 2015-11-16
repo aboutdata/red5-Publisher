@@ -46,6 +46,11 @@ package org.red5.samples.publisher.view.log
 		*/		
 		public var status_txt : TextArea;
 		
+		[Bindable]
+		/**
+		* 
+		*/		
+		public var main : Main = model.main;
 		/**
 		 * 
 		 * 
